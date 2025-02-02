@@ -26,16 +26,16 @@ export default function App(){
       </div>
       
     </div>
-    <div className="flex flex-col justify-center items-center w-full h-[30%]">
+    <div className="flex flex-col justify-center items-center w-full h-[30%] mb-10">
       <div className="md:text-5xl text-2xl font-bold tracking-tight py-6 my-5 text-[#E0E0E0]">
         Greetings folks!
       </div>
-      <div className="md:text-5xl text-2xl font-bold tracking-tight flex flex-col items-center">
+      <div className="md:text-5xl text-2xl font-bold tracking-tight flex flex-col items-center text-blue-300">
         <ReactTyped strings={["Hi, I'm Grins Sah","A Web Developer","Al ML enthusiast  ",""]} loop typeSpeed={50} backSpeed={50} />
       </div>
     </div>
-    <div>
-    <div className="ml-5 text-3xl mb-10 font-bold italic">Programming Languages:-</div>
+    <div className="mb-10 flex flex-col">
+    <span className="ml-5 text-3xl mb-10 font-bold hover:text-blue-100 hover: italic">Programming Languages:-</span>
     <div className=" grid md:grid-cols-6 grid-cols-3 gap-4 w-full h-fit ">
       <Card><Cpp/></Card>
       <Card><Python/></Card>
@@ -44,16 +44,16 @@ export default function App(){
       <Card><TypeScript/></Card>
     </div>
   </div>
-  <div>
-  <div className="ml-5 text-3xl mb-10 font-bold italic">Frameworks:-</div>
+  <div className="mb-10">
+  <div className="ml-5 text-3xl hover:text-blue-100 mb-10 font-bold italic">Frameworks:-</div>
     <div className=" grid md:grid-cols-6 grid-cols-3 gap-4 w-full h-fit ">
       <Card><LogoReact/></Card>
       <Card><Nextjs/></Card>
 
     </div>
   </div>
-  <div>
-  <div className="ml-5 text-3xl mb-10 mt-5 font-bold italic">Databases:-</div>
+  <div className="mb-10">
+  <div className="ml-5 text-3xl mb-10 hover:text-blue-100 mt-5 font-bold italic">Databases:-</div>
     <div className=" grid md:grid-cols-6 grid-cols-3 gap-4 w-full h-fit ">
       <Card><Mysql/></Card>
       <Card><Posgress/></Card>
@@ -61,7 +61,7 @@ export default function App(){
     </div>
   </div>
   <div>
-  <div className="ml-5 text-3xl mb-10 mt-5 font-bold italic">library:-</div>
+  <div className="ml-5 text-3xl mb-10 hover:text-blue-100  mt-5 font-bold italic">library:-</div>
     <div className=" grid md:grid-cols-6 grid-cols-3 gap-4 w-full h-fit text-3xl pl-5 ">
       <div>Express</div><div>Zod</div><div>Websockets</div><div>Bcrypt</div><div>NextAuth</div><div>Cors</div><div>Axios</div>
       <div>TailwindCSS</div>
